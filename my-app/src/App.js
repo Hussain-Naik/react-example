@@ -1,8 +1,15 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import FunctionalGreeting from './components/FunctionalGreeting';
-import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
-import StatefulGreeting from './components/StatefulGreeting';
+// import FunctionalGreeting from './components/FunctionalGreeting';
+// import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
+// import StatefulGreeting from './components/StatefulGreeting';
+// import EventsClass from "./components/EventsClass";
+// import EventsFunctional from "./components/EventsFunctional";
+// import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
+// import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
+// import NestingComponents from "./components/NestingComponents";
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
+
 
 function App() {
   return (
@@ -20,10 +27,16 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
+      </header>
+      <EventsFunctional />
+      <EventsClass />
       <FunctionalGreeting />
       <FunctionalGreetingWithProps greeting="nice to meet you" name="Mike" age='32' />
       <StatefulGreeting greeting='Am a stateful class component'/>
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true} />
+      <NestingComponents /> */}
+      <MethodsAsPropsParent />
     </div>
   );
 }
