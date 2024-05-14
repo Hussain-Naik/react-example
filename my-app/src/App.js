@@ -12,7 +12,9 @@ import './App.css';
 // import RenderingLists from "./components/RenderingLists";
 // import LifeCyclesCDM from "./components/LifeCyclesCDM";
 // import LifeCyclesCDU from "./components/LifeCyclesCDU";
-import LifeCyclesCWU from "./components/LifeCyclesCWU";
+// import LifeCyclesCWU from "./components/LifeCyclesCWU";
+// import ControlledForm from './components/ControlledForm';
+import { SearchBar3 } from './components/SearchBar3';
 
 
 function App() {
@@ -43,8 +45,10 @@ function App() {
       <MethodsAsPropsParent />
       <RenderingLists />
       <LifeCyclesCDM />
-      <LifeCyclesCDU /> */}
+      <LifeCyclesCDU />
       <LifeCyclesCWU />
+      <ControlledForm /> */}
+      <SearchBar3 />
     </div>
   );
 }
